@@ -10,7 +10,7 @@ public class Person {
     public Person(String name, String surname) {
         this.name = name;
         this.surname = surname;
-        this.ticketQuantity = random.nextInt(1,5);
+        this.ticketQuantity = random.nextInt(1, 5);
     }
 
     public String getName() {
